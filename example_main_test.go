@@ -4,31 +4,34 @@ import "fmt"
 
 var houses = []house{
 	{
-		1,
-		adresses{
-			"Сино",
-			"Улица Пушкина",
-			12},
-		30_000,
-		80,
-		3,
+			id:1,
+			address:adresses{
+			district:"Сино",
+			street:"Улица Пушкина",
+			distanceFromCenter:12},
+			price:30_000,
+			areaInKm:80,
+			roomsAmount:3,
 	},
-	{2,
-		adresses{
-			"Сомони",
-			"Улица Сатторрова",
-			9},
-		45_000,
-		87,
-		4,
-	}, {3,
-		adresses{
-			"Шохмансур",
-			"Улица А.Дониша",
-			4},
-		40_000,
-		75,
-		3,
+	{
+			id:2,
+			address:adresses{
+			district:"Сомони",
+			street:"Улица Сатторрова",
+			distanceFromCenter:9},
+			price:45_000,
+			areaInKm:87,
+			roomsAmount:4,
+	},
+	{
+			id:3,
+			address:adresses{
+			district:"Шохмансур",
+			street:"Улица А.Дониша",
+			distanceFromCenter:4},
+			price:40_000,
+			areaInKm:75,
+			roomsAmount:3,
 	},
 }
 

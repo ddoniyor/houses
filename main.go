@@ -108,5 +108,4 @@ func searchByDistricts(houses []house,getDistricts []string)[]house{
 }
 
 func main() {
-
 }
