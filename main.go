@@ -14,7 +14,7 @@ type house struct {
 	address adresses
 	price int64
 	areaInKm int64
-	roomsAmount int64
+	roomsNumber int64
 }
 
 

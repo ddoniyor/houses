@@ -11,7 +11,7 @@ var houses = []house{
 			distanceFromCenter:12},
 			price:30_000,
 			areaInKm:80,
-			roomsAmount:3,
+			roomsNumber:3,
 	},
 	{
 			id:2,
@@ -21,7 +21,7 @@ var houses = []house{
 			distanceFromCenter:9},
 			price:45_000,
 			areaInKm:87,
-			roomsAmount:4,
+			roomsNumber:4,
 	},
 	{
 			id:3,
@@ -31,7 +31,7 @@ var houses = []house{
 			distanceFromCenter:4},
 			price:40_000,
 			areaInKm:75,
-			roomsAmount:3,
+			roomsNumber:3,
 	},
 }
 
